@@ -1,4 +1,11 @@
 # juggle_ds
+<<<<<<< HEAD
+use
+git checkout --track origin/new_branch
+git branch
+git status
+git commit -am 'updates'
+=======
 
 
 FROM
@@ -63,3 +70,4 @@ This command sets the user name (or UID) and optionally the user group (or GID) 
 Example: `USER myuser`
 
 Remember, the order of commands in a Dockerfile matters because each command in a Dockerfile results in a new image layer. Later commands can use the results of previous commands. Also, Docker uses a build cache – if a particular command has been executed before and nothing has changed, Docker uses the cached result, which can make building images faster.
+>>>>>>> main
